@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Hank Aaron - Braves Legends{% endblock %}
+
+{% block content %}
+<div class="container text-center mt-4">
+    <h1>Hank Aaron</h1>
+    <img src="{{ url_for('static', filename='assets/hank_aaron.jpg') }}" class="img-fluid my-3" alt="Hank Aaron">
+    <p class="lead">Hank Aaron broke records and became a baseball legend...</p>
+</div>
+{% endblock %}

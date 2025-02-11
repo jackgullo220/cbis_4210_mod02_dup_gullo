@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Chipper Jones - Braves Legends{% endblock %}
+
+{% block content %}
+<div class="container text-center mt-4">
+    <h1>Chipper Jones</h1>
+    <img src="{{ url_for('static', filename='assets/chipper_jones.jpg') }}" class="img-fluid my-3" alt="Chipper Jones">
+    <p class="lead">Chipper Jones was a legendary third baseman...</p>
+</div>
+{% endblock %}

@@ -1,9 +1,11 @@
 {% extends "base.html" %}
 
+{% block title %}Home - Braves Legends{% endblock %}
+
 {% block content %}
-
-<h1>Welcome to Tyler's Best Website</h1>
-<br>
-<img src="{{ url_for('static', filename='assets/tyler.jpg') }}" alt="Tyler with his cool glasses" width="300">
-
+<div class="container text-center mt-4">
+    <h1>Welcome to Braves Legends</h1>
+    <p class="lead">Explore the greatest players in Atlanta Braves history!</p>
+    <img src="{{ url_for('static', filename='assets/braves.jpg') }}" class="img-fluid rounded" alt="Atlanta Braves">
+</div>
 {% endblock %}
