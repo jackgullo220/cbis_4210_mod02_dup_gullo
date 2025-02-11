@@ -1,11 +1,10 @@
 {% extends "base.html" %}
 
-{% block title %}Hank Aaron - Braves Legends{% endblock %}
-
 {% block content %}
-    <div class="container text-center mt-4">
-        <h1>Hank Aaron</h1>
-        <img src="{{ url_for('static', filename='assets/hank.jpeg') }}" class="img-fluid rounded" alt="Hank Aaron">
-        <p class="lead mt-3">Hank Aaron is one of the greatest baseball players of all time, breaking Babe Ruth's home run record.</p>
-    </div>
+
+<h1>Hank Aaron</h1>
+<p>Hank Aaron is one of the greatest baseball players of all time, famously breaking Babe Ruth’s home run record in 1974. He spent the majority of his career with the Braves, finishing with 755 home runs and leaving an enduring legacy both on and off the field.</p>
+<br>
+<img src="{{ url_for('static', filename='assets/hank.jpeg') }}" alt="Hank Aaron" width="300">
+
 {% endblock %}

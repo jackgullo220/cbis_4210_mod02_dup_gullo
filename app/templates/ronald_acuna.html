@@ -1,11 +1,10 @@
 {% extends "base.html" %}
 
-{% block title %}Ronald Acuña Jr. - Braves Legends{% endblock %}
-
 {% block content %}
-    <div class="container text-center mt-4">
-        <h1>Ronald Acuña Jr.</h1>
-        <img src="{{ url_for('static', filename='assets/ronald.jpeg') }}" class="img-fluid rounded" alt="Ronald Acuña Jr.">
-        <p class="lead mt-3">Ronald Acuña Jr. is one of the most electrifying players in baseball today, leading the Braves to multiple victories.</p>
-    </div>
+
+<h1>Ronald Acuña Jr.</h1>
+<p>Ronald Acuña Jr. is one of the most electrifying players in baseball today. Known for his speed, power, and highlight-reel plays, he has quickly become a fan favorite and a key player in the Braves’ continued success.</p>
+<br>
+<img src="{{ url_for('static', filename='assets/ronald.jpeg') }}" alt="Ronald Acuña Jr." width="300">
+
 {% endblock %}

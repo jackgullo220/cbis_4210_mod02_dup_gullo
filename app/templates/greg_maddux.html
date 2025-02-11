@@ -1,11 +1,10 @@
 {% extends "base.html" %}
 
-{% block title %}Greg Maddux - Braves Legends{% endblock %}
-
 {% block content %}
-    <div class="container text-center mt-4">
-        <h1>Greg Maddux</h1>
-        <img src="{{ url_for('static', filename='assets/greg.jpeg') }}" class="img-fluid rounded" alt="Greg Maddux">
-        <p class="lead mt-3">Greg Maddux was one of the most dominant pitchers in Braves history, known for his control.</p>
-    </div>
+
+<h1>Greg Maddux</h1>
+<p>Greg Maddux, one of the greatest pitchers in baseball history, dominated the mound with pinpoint control and an incredible baseball IQ. During his time with the Braves, he won multiple Cy Young Awards and played a key role in their 1995 World Series victory.</p>
+<br>
+<img src="{{ url_for('static', filename='assets/greg.jpeg') }}" alt="Greg Maddux" width="300">
+
 {% endblock %}

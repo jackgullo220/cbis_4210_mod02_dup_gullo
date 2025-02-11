@@ -1,11 +1,10 @@
 {% extends "base.html" %}
 
-{% block title %}Freddie Freeman - Braves Legends{% endblock %}
-
 {% block content %}
-    <div class="container text-center mt-4">
-        <h1>Freddie Freeman</h1>
-        <img src="{{ url_for('static', filename='assets/fred.jpeg') }}" class="img-fluid rounded" alt="Freddie Freeman">
-        <p class="lead mt-3">Freddie Freeman was a key leader in the Braves' World Series run and a fan favorite.</p>
-    </div>
+
+<h1>Freddie Freeman</h1>
+<p>Freddie Freeman was the heart and soul of the Braves for over a decade, leading the team to a World Series championship in 2021. Known for his powerful bat and Gold Glove defense at first base, Freeman remains one of the most beloved players in Braves history.</p>
+<br>
+<img src="{{ url_for('static', filename='assets/fred.jpeg') }}" alt="Freddie Freeman" width="300">
+
 {% endblock %}

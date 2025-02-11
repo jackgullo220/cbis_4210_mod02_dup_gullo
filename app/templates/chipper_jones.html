@@ -1,11 +1,10 @@
 {% extends "base.html" %}
 
-{% block title %}Chipper Jones - Braves Legends{% endblock %}
-
 {% block content %}
-    <div class="container text-center mt-4">
-        <h1>Chipper Jones</h1>
-        <img src="{{ url_for('static', filename='assets/chipper.jpeg') }}" class="img-fluid rounded" alt="Chipper Jones">
-        <p class="lead mt-3">Chipper Jones was one of the best third basemen in baseball history and a Braves legend.</p>
-    </div>
+
+<h1>Chipper Jones</h1>
+<p>Chipper Jones was a legendary third baseman for the Atlanta Braves, playing his entire career with the team from 1993 to 2012. A switch-hitter, he was one of the most consistent and clutch hitters in franchise history, earning induction into the Baseball Hall of Fame in 2018.</p>
+<br>
+<img src="{{ url_for('static', filename='assets/chipper.jpeg') }}" alt="Chipper Jones" width="300">
+
 {% endblock %}
